@@ -4,7 +4,7 @@
 </p>
 
 #### Requirements :package:
-       JAVA SE 9
+       Java SE Development Kit 8
 
 ## What is it about ? 
 * [x] __This solution supplements the Software Design Patterns in OOP lecture__ 
