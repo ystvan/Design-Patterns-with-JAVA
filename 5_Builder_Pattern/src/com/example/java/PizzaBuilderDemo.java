@@ -9,8 +9,13 @@ public class PizzaBuilderDemo {
         waiter.setPizzaBuilder( hawaiianPizzaBuilder );
         waiter.constructPizza();
 
-        Pizza pizza = waiter.getPizza();
-        System.out.println(pizza);
+        Pizza pizza1 = waiter.getPizza();
+        System.out.println(pizza1);
+
+        waiter.setPizzaBuilder( spicyPizzaBuilder );
+        waiter.constructPizza();
+        Pizza pizza2 = waiter.getPizza();
+        System.out.println(pizza2);
 
     }
 }
