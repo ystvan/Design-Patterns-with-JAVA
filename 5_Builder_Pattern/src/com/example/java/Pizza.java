@@ -16,4 +16,9 @@ public class Pizza {
     public void setTopping(String topping) {
         this.topping = topping;
     }
+
+    @Override
+    public String toString() {
+        return "I am eating a delicious pizza, whose dough is: " + dough + " with some sauce of " + sauce + " and topping(s) is/are " + topping;
+    }
 }

@@ -1,7 +1,5 @@
 package com.example.java;
 
-//director
-
 class Waiter {
     private PizzaBuilder pizzaBuilder;
 
