@@ -3,11 +3,12 @@ package com.example.java.classic;
 public class ClassicSingleton {
     private static ClassicSingleton uniqueInstance;
     private static int howManyTimes = 0;
-    private ClassicSingleton(){}
+    private ClassicSingleton(){
+        howManyTimes++;
+    }
     public static ClassicSingleton getInstance(){
         if (uniqueInstance == null){
             uniqueInstance = new ClassicSingleton();
-            howManyTimes++;
         }
         return uniqueInstance;
     }
