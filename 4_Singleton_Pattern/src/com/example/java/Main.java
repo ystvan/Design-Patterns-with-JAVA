@@ -1,19 +1,19 @@
 package com.example.java;
 
-import com.example.java.classic.ClassicSingleton;
+import com.example.java.classic.RegistryConfiguration;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        ClassicSingleton classicSingleton = ClassicSingleton.getInstance();
-        System.out.println(classicSingleton.getDescription());
-        System.out.println(classicSingleton.getTimesOfCreation());
+        RegistryConfiguration registryConfiguration = RegistryConfiguration.getInstance();
+        System.out.println(registryConfiguration.getDescription());
+        System.out.println(registryConfiguration.getTimesOfCreation());
 
-        ClassicSingleton anotherOne = ClassicSingleton.getInstance();
+        RegistryConfiguration anotherOne = RegistryConfiguration.getInstance();
         System.out.println(anotherOne.getTimesOfCreation());
 
-        ClassicSingleton extraOne = ClassicSingleton.getInstance();
+        RegistryConfiguration extraOne = RegistryConfiguration.getInstance();
         System.out.println(extraOne.getTimesOfCreation());
 
     }
