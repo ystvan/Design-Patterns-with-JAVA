@@ -16,6 +16,7 @@ public class EatingOutInTheCity {
         chef.setHamburgerBuilder( cheeseburgerBuilder );
         chef.constructHamburger();
         Hamburger hamburger2 = chef.getHamburger();
+
         //eat it
         System.out.println(hamburger2);
 
