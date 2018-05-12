@@ -1,15 +1,15 @@
 package com.example.java;
 
-public class Soy extends CondimentDecorator {
+public class WhipCreme extends CondimentDecorator {
     Beverage beverage;
 
-    public Soy(Beverage beverage) {
+    public WhipCreme(Beverage beverage) {
         this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", Mocha";
+        return beverage.getDescription() + ", Whip creme on top";
     }
 
     @Override
