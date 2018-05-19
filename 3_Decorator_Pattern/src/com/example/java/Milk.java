@@ -1,7 +1,7 @@
 package com.example.java;
 
-public class Milk extends CondimentDecorator {
-    Beverage beverage;
+public class Milk extends ExtrasDecorator {
+    private Beverage beverage;
 
     public Milk(Beverage beverage) {
         this.beverage = beverage;
@@ -9,7 +9,7 @@ public class Milk extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", Milk";
+        return beverage.getDescription() + ", and Milk";
     }
 
     @Override

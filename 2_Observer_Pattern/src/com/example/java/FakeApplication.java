@@ -1,5 +1,5 @@
 package com.example.java;
 
-public interface DisplayElement {
+public interface FakeApplication {
      void display();
 }

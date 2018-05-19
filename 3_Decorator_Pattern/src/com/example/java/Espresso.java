@@ -3,7 +3,7 @@ package com.example.java;
 public class Espresso extends Beverage {
 
     public Espresso() {
-        description = "Espresso classic";
+        description = "You are getting an Espresso classic";
     }
 
     @Override

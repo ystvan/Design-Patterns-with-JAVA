@@ -1,6 +1,6 @@
 package com.example.java;
 
-public abstract class CondimentDecorator extends Beverage {
+public abstract class ExtrasDecorator extends Beverage {
     public abstract String getDescription();
 
 }

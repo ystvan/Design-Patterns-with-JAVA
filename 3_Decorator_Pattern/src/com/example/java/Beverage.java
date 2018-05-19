@@ -1,7 +1,7 @@
 package com.example.java;
 
 public abstract class Beverage {
-    String description = "Unknown Beverage";
+    String description = "Unknown Drink";
 
     public String getDescription() {
         return description;
